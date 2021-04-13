@@ -6,8 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
-    'Osen\\Mpesa' => array($vendorDir . '/osenco/mpesa/src'),
     'Mockery' => array($vendorDir . '/mockery/mockery/library'),
 );
